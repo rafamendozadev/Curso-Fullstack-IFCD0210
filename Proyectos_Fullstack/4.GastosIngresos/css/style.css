@@ -1,0 +1,33 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.special-padding {
+    padding-top: 150px;
+}
+
+.form-select.border-warning {
+  border-color: #ffc107 !important;
+  box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25) !important;
+}
+
+input:-webkit-autofill {
+  background-color: rgba(255, 193, 7, 0.1) !important;
+  transition: background-color 9999s ease-in-out 0s;
+}
+
+#password:focus,
+input:-webkit-autofill:focus {
+  background-color: rgba(255, 193, 7, 0.1) !important;
+}
+
+.highcharts-credits {
+    display: none;
+}
+
+.highcharts-subtitle {
+    display: none;
+}

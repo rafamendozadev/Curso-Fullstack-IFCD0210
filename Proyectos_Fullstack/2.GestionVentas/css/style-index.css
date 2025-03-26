@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c8cef8;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60pt;
+}
+
+.logo{
+   display: block;
+   margin: auto;
+}
+
+
+.contenedor {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+h2 {
+    text-align: justify;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: justify;
+    padding: 20px;
+
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+}
+
+.secciones{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.seccion {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    overflow: auto;
+}
+
+.seccion h2{
+    margin-top: 50px;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table th {
+    color: #f0eff5;
+    background-color: #27282f;
+    border: 1px solid #27282f;
+    padding: 5px;
+}
+
+table td {
+    padding: 5px;
+    border: 1px solid #27282f;
+    background-color: #f0eff5;
+}
+
+.cabecera {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    min-width: 100%;
+    padding: 5px;
+    border: 2px solid #27282f;
+    border-radius: 4px;
+    font-size: 16px;
+    /* resize: none; */
+}
+
+.boton {
+    padding: 5px;
+    background-color: #4F6367;
+    color: #DBEFBC;
+    border-radius: .4rem;
+}
+
+.fila{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 5px;
+    background-color: #27282f;
+    color: #DBEFBC;
+    border-radius: .4rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (max-width: 800px) {
+    .seccion{
+        width: 100%;
+    }
+  }

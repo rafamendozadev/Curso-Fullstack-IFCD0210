@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Conversor de Divisas</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/logo ok.png" alt="Logo site">
+        </div>
+    </header>
+    <main>
+        <div class="caja_global">
+            <div class="importe">
+                <h2>Conversor de divisas</h2>
+                <label for="importe"></label>
+                <input type="number" name="quantidad" id="importe" placeholder="importe">
+            </div>
+
+            <div class="caja_monedas">
+                <div>
+                    <h3>ORIGEN</h3>
+                    <select name="origen" id="origen">
+                        <option value="euro">EURO (EUR)</option>
+                        <option value="dolar">DOLAR (USD)</option>
+                        <option value="peseta">PESETA (ESP)</option>
+                    </select>
+                </div>
+                <div>
+
+                </div>
+                <div>
+                    <h3>DESTINO</h3>
+                    <select name="destino" id="destino">
+                        <option value="dolar">DOLAR (USD)</option>
+                        <option value="peseta">PESETA (ESP)</option>
+                        <option value="euro">EURO (EUR)</option>
+                    </select>
+                </div>
+
+            </div>
+            <div class="caja_boton">
+                <button class="convert" onclick="covertir()">convertir</button>
+                <p class="resultado" id="resultadoConversion">$$$$$</p>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <p>Creado por Rafael Mendoza &copy; 2024</p>
+        <script src="./js/script.js"></script>
+    </footer>
+</body>
+
+</html>

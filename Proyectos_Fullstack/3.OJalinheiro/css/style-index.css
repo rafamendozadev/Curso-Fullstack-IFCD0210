@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffc487;
+    font-family: monospace;
+    font-size: large;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 7vw;
+    color: #66433a;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25)
+}
+
+.logo:hover {
+    scale: 1.02;
+    transition: 0.2s;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.25)
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+h2 {
+    text-align: justify;
+    font-size: 26px;
+    margin-bottom: 30px;
+    color: #66433a;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+    text-align: justify;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: #ffe394;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+}
+
+.card_baja {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: flex-start;
+    text-align: justify;
+    padding: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: rgb(245 245 245);
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.25)
+}
+
+.card_baja h2 {
+    color: rgb(71, 71, 71);
+}
+
+.table_baja th {
+    background-color: #5f5f5f;
+}
+
+.table_baja td {
+    background-color: #e0e0e0;
+}
+
+.secciones {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.seccion {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    overflow: auto;
+}
+
+.seccion h2 {
+    margin-top: 30px;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+.tabla_produccion{
+    display: flex;
+    align-self: center;
+}
+
+table th {
+    color: #f0eff5;
+    background-color: #66433a;
+    border: 1px solid #2f2727;
+    padding: 5px;
+}
+
+.th_cabecera {
+    color: #66433a;
+    font-size: 20px;
+    background-color: #f8dbc8;
+    padding: 5px;
+}
+
+table td {
+    padding: 5px;
+    border: 1px solid #2f2727;
+    background-color: #ffffff;
+}
+
+.cabecera {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    min-width: 100%;
+    padding: 5px;
+    border: 2px solid #27282f;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.boton {
+    padding: 10px 20px;
+    background-color: #ac482a;
+    color: #ffffff;
+    border-radius: .4rem;
+    border: none;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #f1714a;
+    color: #ffffff;
+}
+
+.fila {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    padding: 0px 10px;
+    background-color: #ac482a;
+    color: #ffffff;
+    border-radius: .4rem;
+    align-content: center;
+    height: 50px;
+}
+
+nav a:hover {
+    background-color: #f1714a;
+    color: #ffffff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.produccion {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 30px 0px;
+}
+
+.tab_prod {
+    display: flex;
+}
+
+.tab_prod label {
+    padding: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    text-align: center;
+    width: 30px;
+}
+
+.tab_prod input[type="radio"] {
+    display: none;
+}
+
+.tab_prod input[type="radio"]:checked+label {
+    background-color: #ffab4a;
+    color: white;
+}
+
+@media (max-width: 800px) {
+    .seccion {
+        width: 100%;
+    }
+
+    nav a {
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contenedor {
+        padding: 10px 0
+    }
+
+    body {
+        font-size: medium;
+    }
+
+    nav {
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        height: 30px;
+    }
+}

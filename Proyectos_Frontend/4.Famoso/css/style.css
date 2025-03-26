@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    /* list-style-type: none; */
+    scroll-behavior: smooth
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+body {
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.font_general {
+    color: #FED8B1;
+}
+
+#bg_cabecera {
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.579) 100%), url(../img/bg_cabecera.webp);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#bio_rr {
+    color: #402222;
+    text-align: center;
+    text-shadow: 1px 1px 5px #FED8B1;
+}
+
+h1 {
+    font-family: "Prompt", sans-serif;
+    padding-top: 70vh;
+    align-items: center;
+    font-size: 300%;
+}
+
+h2 {
+    font-family: "Gudea", sans-serif;
+    text-decoration: underline;
+    text-shadow: 1px 1px 5px #000000;
+    padding: 0px 0 30px;
+}
+
+th {
+    font-size: large;
+    text-shadow: 1px 1px 5px #000000;
+}
+
+td {
+    padding: 8px;
+}
+
+.centralizar_menu {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu_link:hover {
+    color: #FED8B1;
+}
+
+.menu_link:hover svg {
+    fill: #FED8B1;
+}
+
+.menu_link {
+    color: #6F4E37;
+    display: grid;
+    margin: 30px 0px;
+    justify-items: center;
+}
+
+.volver_arriba {
+    color: #FED8B1;
+    display: grid;
+    justify-items: right;
+    font-size: small;
+}
+
+.datos_actor {
+    line-height: 1.5;
+}
+
+.section_el_actor {
+    background-color: #582f32;
+}
+
+.section_top_peliculas {
+    background-color: #94887c;
+}
+
+.section_mejores_escenas {
+    background-color: #272c29;
+}
+
+.align_img_peliculas {
+    width: 100px;
+}
+
+.align_img_peliculas:hover {
+    width: 100px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.texto_tabla {
+    text-align: justify;
+    vertical-align: top;
+}
+
+.imagenes_peliculas_centrada {
+    text-align: center;
+}
+
+.fotos_galeria {
+    margin: 20px;
+    display: inline-block;
+}
+
+.fotos_galeria img {
+    height: 200px;
+}
+
+footer {
+    background-color: #94887c;
+    padding: 30px;
+    color: white;
+}

@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hind Madurai", sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+}
+
+header {
+    background: linear-gradient(180deg, rgb(255 230 197) 0%, rgb(189 140 96) 100%);
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+#logo svg {
+    width: 20vh;
+    height: fit-content;
+    box-shadow: 0px 18px 10px -14px black;
+}
+
+#logo a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0px 10px;
+    background-color: #F7DCB9;
+    /* border: solid 1px white; */
+}
+
+a {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+nav a:hover {
+    scale: 110%;
+    transition: 100ms;
+
+}
+
+body {
+    background-color: #c2ce9d;
+    /* width: fit-content; */
+}
+
+h1 {
+    font-family: "Cinzel Decorative", serif;
+    color: rgb(60, 99, 60);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+}
+
+h2,
+h3,
+h4 {
+    font-family: "Libre Baskerville", serif;
+    color: rgb(39, 70, 39);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+p {
+    padding: 0px 30px;
+    text-align: justify;
+}
+
+.arboles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+    gap: 20px;
+}
+
+.arboles img {
+    width: 300px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: solid white 3px;
+    box-shadow: rgba(0, 0, 0, 0.644) 1px 5px 10px;
+}
+
+.caja_nosotros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.caja_nosotros div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    gap: 20px;
+    text-align: center;
+    padding: 20px 0px;
+    border-radius: 10px;
+    border: solid rgba(0, 0, 0, 0.479);
+}
+
+.img_nosotros {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: solid white 3px;
+    box-shadow: rgba(0, 0, 0, 0.644) 1px 5px 10px;
+}
+
+.tabla-comprar {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.644) 1px 5px 10px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    margin: 30px auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.align_tablas {
+    display: flex;
+    flex-direction: column;
+    width: 100VW;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.configura_compra {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0px;
+    gap: 10px;
+    background-color: #d5e0b2;
+}
+
+.configura_compra input {
+    border-radius: 5px;
+    border: solid 1px rgb(39, 70, 39);
+    text-align: center;
+}
+
+.style_button {
+    background-color: rgb(255, 136, 0);
+    color: white;
+    display: flex;
+    margin: 10px;
+    padding: 15px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px auto;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.style_button:hover {
+    background-color: rgb(255, 160, 35);
+    /* border: solid 1px rgb(39, 70, 39); */
+}
+
+.box_index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+    padding: 20px 0px;
+    border-radius: 10px;
+    border: solid rgba(0, 0, 0, 0.479);
+    background-color: rgba(255, 255, 255, 0.24);
+}
+
+.box_calcular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+    padding: 20px 0px;
+    border-radius: 10px;
+    border: solid rgba(0, 0, 0, 0.479);
+    background-color: rgba(255, 255, 255, 0.24);
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox]:checked+label div {
+    background-color: hsl(32, 97%, 66%);
+    transition-duration: 100ms;
+}
+
+.box_calcular:hover {
+    background-color: rgb(255, 204, 137);
+
+}
+
+.pintar_lista {
+    background-color: #ffba7e;
+    border-radius: 5px
+}
+
+.sesion_contactos {
+    background: linear-gradient(rgb(255 230 197) 0%, rgb(189 140 96) 100%);
+    text-align: center;
+}
+
+.redes_sociales {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.redes_sociales svg:hover {
+    scale: 1.2;
+}
+
+footer {
+    background: linear-gradient(180deg, rgb(189 140 96) 100%, rgb(255 230 197) 0%);
+    text-align-last: center;
+    color: white;
+}
+
+@media (width <=425px) {
+    #logo svg {
+        width: 15vh;
+    }
+
+    .arboles img {
+        width: 170px;
+        height: 130px;
+        border: solid white 2px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    nav {
+        height: 80px;
+    }
+
+    a {
+        font-size: 10px;
+    }
+
+    .configura_compra {
+        padding: 16px 0px;
+        gap: 8px;
+        background-color: #d5e0b2;
+        font-size: 10px;
+    }
+
+    .tabla-comprar {
+        width: 280px;
+    }
+
+    .configura_compra label {
+        font-size: 12px;
+    }
+
+    .style_button {
+        padding: 8px 16px;
+    }
+
+    .caja_nosotros {
+        gap: 15px;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+    }
+
+    .caja_nosotros div {
+        width: 250px;
+        gap: 10px;
+        padding: 8px 0px;
+        border-radius: 10px;
+        border: solid 2px rgba(0, 0, 0, 0.479);
+    }
+
+    .img_nosotros {
+        width: 200px;
+        height: 140px;
+        border: solid white 2px;
+        box-shadow: rgba(0, 0, 0, 0.644) 1px 2px 6px;
+    }
+
+    .redes_sociales {
+        padding-bottom: 8px;
+    }
+
+    .redes_sociales svg {
+        width: 40px;
+    }
+
+}
