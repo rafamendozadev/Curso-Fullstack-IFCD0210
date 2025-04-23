@@ -1,1 +1,1 @@
-
+El archivo README.md en GitHub sirve para documentar un proyecto, brindando información esencial sobre el mismo a quienes lo revisen o lo estén utilizando. Es la primera impresión que tienen los usuarios y sirve como una guía para entender el proyecto, su propósito, cómo utilizarlo y cómo contribuir a él.
